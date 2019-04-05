@@ -1,0 +1,21 @@
+{
+    "name": "audi2014/crypto",
+    "description": "php crypto interface and implementation",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Perepelytsia, Artur Mykhailovich",
+            "email": "audi2014@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-openssl": "*"
+        
+    },
+    "autoload":{
+        "psr-4": { "Audi2014\\Crypto\\": "src/" }
+    }
+}
